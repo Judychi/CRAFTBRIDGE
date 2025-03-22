@@ -758,6 +758,10 @@ video {
   margin-right: 4rem /* 64px */;
 }
 
+.mr-20 {
+  margin-right: 5rem /* 80px */;
+}
+
 .ml-12 {
   margin-left: 3rem /* 48px */;
 }
@@ -892,6 +896,10 @@ video {
 
 .top-1 {
   top: 0.25rem /* 4px */;
+}
+
+.top-10 {
+  top: 2.5rem /* 40px */;
 }
 
 .cursor-pointer {
