@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Craftbridge</title>
     <link rel="stylesheet" href="../src/output.css" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,16 +20,20 @@
             </div>
           </div>
           
-        <form action="" class="w-4/5 mx-auto border-t-2 border-yellow-500 rounded-tr-3xl rounded-tl-3xl mt-20 py-12">
+        <form action="" class="w-4/5 mx-auto border-t-2 border-yellow-500 rounded-tr-3xl rounded-tl-3xl mt-20 py-12 px-3">
             <div class="heading">
-                <p class="text-xl text-center">Enter your email to reset your Password</p>
+                <p class="text-xl ">Password Recovery</p>
 
             </div>
 
             <section class="grid text-lg pt-5 pb-6 ">
-                <input type="Email" placeholder="Email Address" class="border-2 border-gray-500 rounded-xl px-2 py-1 mb-5">
+                <input type="password" placeholder="New Password" class="border-2 border-gray-500 rounded-xl px-2 py-1 mb-5 outline-none">
+
+                <input type="password" placeholder="Confirm Password" class="border-2 border-gray-500 rounded-xl px-2 py-1 mb-2 outline-none">
+                <p class="text-xs text-gray-400 px-3">Minimum of 8 characteers with 1 number, 1 uppercase, & 1 special character.</p>
             </section>
-            <button class="bg-sky-600 w-full py-1 rounded-xl text-white font-semibold text-lg">Submit</button>
+            
+            <button class="bg-sky-600 w-full py-2 rounded-xl text-white font-semibold">Reset Password</button>
 
         </form>
     </div>

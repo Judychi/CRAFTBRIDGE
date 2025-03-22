@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,800;0,900;1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body class="bg-sky-50 px-5">
+    <div class="container border w-full lg:w-1/2 mx-auto shadow-md">
+        <nav class="flex items-center justify-between p-5">
+            <div class="logo">
+                <div class="cblogo flex">
+                <div class="halfc bg-sky-600 px-2 mr-2 rounded-l-full"></div>
+                <div class="halfb">
+                    <div class="upb bg-yellow-500 p-2 mb-2 rounded-r-full"></div>
+                    <div class="downb bg-sky-600 p-2 rounded-r-full"></div>
+                </div>
+                </div>
+            </div>
+            <div class="accts items-baseline">
+                <a href="#" class="px-3"><i class="fa-light far fa-bell text-xl opacity-60"></i></a>
+                <a href="#" class=""><i class="fas fa-user-circle mr-2 text-xl opacity-60"></i></a>
+                <button class="py-1 px-2 border border-blue-700 rounded-full text-blue-700 text-sm">Account</button>
+            </div>
+        </nav>
+        <header class="p-5 w-full ">
+            <p>Welcome <span id="clientName">Jane</span></p>
+            <div class="inp py-2 flex w-full">
+                <div class="search bg-white p-1 rounded-full border border-gray-700 w-full">
+                    <input type="text" placeholder="Search" class="w-[93%] px-3 outline-none">
+                    <button>
+                        <i class="fa fa-magnifying-glass opacity-60 right-0"></i>
+                    </button>
+                </div>
+                
+                <div class="hamburger text-2xl px-3 ">&#9776;</div>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="head text-center text-2xl font-[500]">
+                    <p>All The Assistance <br>You Require.</p>
+                </div>
+                <div class="artisans grid grid-cols-3 w-full my-5">
+                    <div class="carpenter shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/carpenter.png" class="w-20" alt="carpenter">
+                        <p class="text-sm text-center pt-1">Carpenter</p>
+                    </div>
+                    <div class="painter shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/painter.png" class="w-20" alt="painter">
+                        <p class="text-sm text-center pt-1">Painter</p>
+                    </div>
+                    <div class="plumber shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/plumber.png" class="w-20" alt="plumber">
+                        <p class="text-sm text-center pt-1">Plumber</p>
+                    </div>
+                    <div class="barber shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/barber.jpeg" class="w-20" alt="barber">
+                        <p class="text-sm text-center pt-1">Barber</p>
+                    </div>
+                    <div class="laundry shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/laundry.png" class="w-20" alt="laundry">
+                        <p class="text-sm text-center pt-1">Laundry</p>
+                    </div>
+                    <div class="electrician shadow-md mx-auto items-center my-3 bg-white p-2">
+                        <img src="./assets/images/electrician.jpeg" class="w-20" alt="electrician">
+                        <p class="text-sm text-center pt-1">Electrician</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="bg-sky-500 my-9 text-white">
+                <div class="w-1/2 mx-auto text-center py-8">
+                    <p class="font-[500]">How it Works</p>
+                    <p class="text-sm py-3">There has never been an easier way to organize your house.</p>
+                    <p class="text-[10px] text-center">Simply register with your details, search for the service you require, and we'll pit you in touch with skilled craftpeople.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
